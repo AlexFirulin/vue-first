@@ -1,0 +1,89 @@
+.html{
+  box-sizing: border-box;
+}
+* , *::before, *::after{
+  box-sizing: inherit;
+}
+.bdy{
+  background: black;
+}
+
+
+.head{
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+}
+.head-name{
+  color: white;
+  text-align: center;
+  margin-top: 8vh;
+  vertical-align: middle;
+  font-size: 5vh;
+  font-family: 'Tilt Warp', cursive;
+}
+.adv-text{
+  color: #FFFFFF;
+  height: 30vh;
+  position: relative;
+  padding-top: 25%;
+  padding-left: 40%;
+  flex-direction: column;
+}
+
+.adv-help{
+  color: #15FE02;
+  font-size: 16px;
+  padding-bottom: 1%;
+
+}
+
+.adv-promo{
+  position: relative;
+}
+
+
+.btn{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%; transform:translate(-50%, 0);
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 295px;
+height: 60px;
+background: #5843F4;
+border-radius: 16px;
+margin-bottom: 10%;
+}
+
+.text-btn{
+  width: 68px;
+height: 28px;
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Neutral/White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
